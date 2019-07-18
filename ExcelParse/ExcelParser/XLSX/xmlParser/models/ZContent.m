@@ -42,5 +42,32 @@ static NSString *kValue = @"value";        // 对应文件下对应标识下的�
 
 
 
+- (NSString *)column
+{
+    if (self.keyName.length > 0) {
+        return [self.keyName substringToIndex:1];
+    }
+    return nil;
+}
+
+//- (NSInteger)columnNum
+//{
+//    NSString *column = [self column];
+//    return column.UTF8String - @"A".UTF8String;
+//}
+//
+//- (NSString *)row
+//{
+//    if (self.keyName.length > 0) {
+//        return [self.keyName substringFromIndex:1];
+//    }
+//    return nil;
+//}
+//
+//- (NSInteger)rowNum
+//{
+//    NSString *row = [self row];
+//    return row.integerValue;
+//}
 
 @end
