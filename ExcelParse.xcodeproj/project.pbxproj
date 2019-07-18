@@ -52,6 +52,7 @@
 		47E8EF7422E00FAC00907FBE /* test3.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 47E8EF7122E00FAC00907FBE /* test3.xlsx */; };
 		47E8EF7622E00FAC00907FBE /* test.xls in Resources */ = {isa = PBXBuildFile; fileRef = 47E8EF7322E00FAC00907FBE /* test.xls */; };
 		47E8EF7822E0217C00907FBE /* test.csv in Resources */ = {isa = PBXBuildFile; fileRef = 47E8EF7722E0217C00907FBE /* test.csv */; };
+		47E8EF7A22E05BD200907FBE /* 2019年国际化.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 47E8EF7922E05BD200907FBE /* 2019年国际化.xlsx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,6 +150,7 @@
 		47E8EF7122E00FAC00907FBE /* test3.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test3.xlsx; sourceTree = "<group>"; };
 		47E8EF7322E00FAC00907FBE /* test.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.xls; sourceTree = "<group>"; };
 		47E8EF7722E0217C00907FBE /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.csv; sourceTree = "<group>"; };
+		47E8EF7922E05BD200907FBE /* 2019年国际化.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "2019年国际化.xlsx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -404,6 +406,7 @@
 				47E8EF7722E0217C00907FBE /* test.csv */,
 				47E8EF7322E00FAC00907FBE /* test.xls */,
 				47E8EF7122E00FAC00907FBE /* test3.xlsx */,
+				47E8EF7922E05BD200907FBE /* 2019年国际化.xlsx */,
 			);
 			path = Excel;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 				47E8EEE022E00CD000907FBE /* Assets.xcassets in Resources */,
 				47E8EF7422E00FAC00907FBE /* test3.xlsx in Resources */,
 				47E8EEDE22E00CCF00907FBE /* Main.storyboard in Resources */,
+				47E8EF7A22E05BD200907FBE /* 2019年国际化.xlsx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

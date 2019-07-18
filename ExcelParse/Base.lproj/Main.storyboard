@@ -45,6 +45,15 @@
                                     <action selector="xlsxParse:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yH5-Me-eFk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgO-vG-f4N">
+                                <rect key="frame" x="132" y="507" width="151" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93600177760000003" green="0.53755255879999997" blue="0.20714484359999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="xlsxMy"/>
+                                <connections>
+                                    <action selector="xlsxParsemy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g6y-ek-d6h"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

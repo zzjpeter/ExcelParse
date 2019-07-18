@@ -43,6 +43,11 @@
     [[LAWExcelTool shareInstance] parserExcelWithPath:path];
 }
 
+- (IBAction)xlsxParsemy:(id)sender {
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"2019年国际化.xlsx" ofType:nil];
+    [[LAWExcelTool shareInstance] parserExcelWithPath:path];
+}
+
 #pragma mark LAWExcelParserDelegate
 - (void)parser:(LAWExcelTool *)parser success:(id)responseObj
 {
@@ -108,6 +113,10 @@
     }
     
     NSLog(@"bigContentStrArr:%@",bigContentStrArr);
+    
+    for (NSString *contenStr in bigContentStrArr) {
+        NSLog(@"contenStr:%@", contenStr);
+    }
 }
 
 @end
