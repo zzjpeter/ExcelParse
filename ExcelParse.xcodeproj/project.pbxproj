@@ -49,6 +49,9 @@
 		47E8EF6922E00CF600907FBE /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF4722E00CF600907FBE /* CSVParser.m */; };
 		47E8EF6D22E00ED000907FBE /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E8EF6C22E00ED000907FBE /* libiconv.2.4.0.tbd */; };
 		47E8EF6F22E00EDD00907FBE /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E8EF6E22E00EDD00907FBE /* libz.1.2.8.tbd */; };
+		47E8EF7422E00FAC00907FBE /* test3.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 47E8EF7122E00FAC00907FBE /* test3.xlsx */; };
+		47E8EF7522E00FAC00907FBE /* test.csv in Resources */ = {isa = PBXBuildFile; fileRef = 47E8EF7222E00FAC00907FBE /* test.csv */; };
+		47E8EF7622E00FAC00907FBE /* test.xls in Resources */ = {isa = PBXBuildFile; fileRef = 47E8EF7322E00FAC00907FBE /* test.xls */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -143,6 +146,9 @@
 		47E8EF6A22E00DA500907FBE /* ExcelParse.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelParse.pch; sourceTree = "<group>"; };
 		47E8EF6C22E00ED000907FBE /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
 		47E8EF6E22E00EDD00907FBE /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		47E8EF7122E00FAC00907FBE /* test3.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test3.xlsx; sourceTree = "<group>"; };
+		47E8EF7222E00FAC00907FBE /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.csv; sourceTree = "<group>"; };
+		47E8EF7322E00FAC00907FBE /* test.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.xls; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +184,7 @@
 		47E8EED522E00CCF00907FBE /* ExcelParse */ = {
 			isa = PBXGroup;
 			children = (
+				47E8EF7022E00FAC00907FBE /* Excel */,
 				47E8EEEC22E00CF600907FBE /* ExcelParser */,
 				47E8EED622E00CCF00907FBE /* AppDelegate.h */,
 				47E8EED722E00CCF00907FBE /* AppDelegate.m */,
@@ -391,6 +398,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		47E8EF7022E00FAC00907FBE /* Excel */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EF7222E00FAC00907FBE /* test.csv */,
+				47E8EF7322E00FAC00907FBE /* test.xls */,
+				47E8EF7122E00FAC00907FBE /* test3.xlsx */,
+			);
+			path = Excel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -449,7 +466,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				47E8EEE322E00CD000907FBE /* LaunchScreen.storyboard in Resources */,
+				47E8EF7622E00FAC00907FBE /* test.xls in Resources */,
 				47E8EEE022E00CD000907FBE /* Assets.xcassets in Resources */,
+				47E8EF7522E00FAC00907FBE /* test.csv in Resources */,
+				47E8EF7422E00FAC00907FBE /* test3.xlsx in Resources */,
 				47E8EEDE22E00CCF00907FBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,7 @@
 
 #import "LAWExcelTool.h"
 
-@interface ViewController ()
+@interface ViewController ()<LAWExcelParserDelegate>
 
 @end
 
@@ -19,7 +19,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self testParse];
 }
 
+- (void)testParse
+{
+    [LAWExcelTool shareInstance].delegate = self;
+}
+
+- (IBAction)csvParse:(id)sender {
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"test.csv" ofType:nil];
+    [[LAWExcelTool shareInstance] parserExcelWithPath:path];
+}
+
+- (IBAction)xlsParse:(id)sender {
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"test.xls" ofType:nil];
+    [[LAWExcelTool shareInstance] parserExcelWithPath:path];
+}
+
+- (IBAction)xlsxParse:(id)sender {
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"test3.xlsx" ofType:nil];
+    [[LAWExcelTool shareInstance] parserExcelWithPath:path];
+}
+
+#pragma mark LAWExcelParserDelegate
+- (void)parser:(LAWExcelTool *)parser success:(id)responseObj
+{
+    NSLog(@"responseObj:%@", responseObj);
+}
 
 @end
