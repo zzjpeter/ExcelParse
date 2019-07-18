@@ -13,6 +13,42 @@
 		47E8EEE022E00CD000907FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E8EEDF22E00CD000907FBE /* Assets.xcassets */; };
 		47E8EEE322E00CD000907FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E8EEE122E00CD000907FBE /* LaunchScreen.storyboard */; };
 		47E8EEE622E00CD000907FBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EEE522E00CD000907FBE /* main.m */; };
+		47E8EF4822E00CF600907FBE /* main11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EEF022E00CF600907FBE /* main11.cpp */; };
+		47E8EF4922E00CF600907FBE /* XlsReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EEF222E00CF600907FBE /* XlsReader.cpp */; };
+		47E8EF4A22E00CF600907FBE /* DHxlsReaderIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EEFD22E00CF600907FBE /* DHxlsReaderIOS.m */; };
+		47E8EF4B22E00CF600907FBE /* DHcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF0122E00CF600907FBE /* DHcell.m */; };
+		47E8EF4C22E00CF600907FBE /* xls.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF0422E00CF600907FBE /* xls.c */; };
+		47E8EF4D22E00CF600907FBE /* xlstool.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF0522E00CF600907FBE /* xlstool.c */; };
+		47E8EF4E22E00CF600907FBE /* ole.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF0622E00CF600907FBE /* ole.c */; };
+		47E8EF4F22E00CF600907FBE /* xls2csv.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF0722E00CF600907FBE /* xls2csv.c */; };
+		47E8EF5022E00CF600907FBE /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF0822E00CF600907FBE /* getopt.c */; };
+		47E8EF5122E00CF600907FBE /* LAWExcelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF0922E00CF600907FBE /* LAWExcelTool.m */; };
+		47E8EF5222E00CF600907FBE /* ZXLSXParsers注解.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF0B22E00CF600907FBE /* ZXLSXParsers注解.m */; };
+		47E8EF5322E00CF600907FBE /* ZSheetParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF0F22E00CF600907FBE /* ZSheetParser.m */; };
+		47E8EF5422E00CF600907FBE /* ZXLSXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF1022E00CF600907FBE /* ZXLSXParser.m */; };
+		47E8EF5522E00CF600907FBE /* ZSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF1322E00CF600907FBE /* ZSheet.m */; };
+		47E8EF5622E00CF600907FBE /* ZSheetCol.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF1622E00CF600907FBE /* ZSheetCol.m */; };
+		47E8EF5722E00CF600907FBE /* ZContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF1822E00CF600907FBE /* ZContent.m */; };
+		47E8EF5822E00CF600907FBE /* ZWorkbookParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF1B22E00CF600907FBE /* ZWorkbookParser.m */; };
+		47E8EF5922E00CF600907FBE /* ZBaseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF1C22E00CF600907FBE /* ZBaseParser.m */; };
+		47E8EF5A22E00CF600907FBE /* ZContentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF1F22E00CF600907FBE /* ZContentParser.m */; };
+		47E8EF5B22E00CF600907FBE /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF2222E00CF600907FBE /* unzip.c */; };
+		47E8EF5C22E00CF600907FBE /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF2322E00CF600907FBE /* zip.c */; };
+		47E8EF5D22E00CF600907FBE /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF2422E00CF600907FBE /* ioapi.c */; };
+		47E8EF5E22E00CF600907FBE /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF2522E00CF600907FBE /* mztools.c */; };
+		47E8EF5F22E00CF600907FBE /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF2D22E00CF600907FBE /* SSZipArchive.m */; };
+		47E8EF6022E00CF600907FBE /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF3022E00CF600907FBE /* aeskey.c */; };
+		47E8EF6122E00CF600907FBE /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF3122E00CF600907FBE /* hmac.c */; };
+		47E8EF6222E00CF600907FBE /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF3422E00CF600907FBE /* aescrypt.c */; };
+		47E8EF6322E00CF600907FBE /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF3522E00CF600907FBE /* fileenc.c */; };
+		47E8EF6422E00CF600907FBE /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF3822E00CF600907FBE /* sha1.c */; };
+		47E8EF6522E00CF600907FBE /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF3D22E00CF600907FBE /* prng.c */; };
+		47E8EF6622E00CF600907FBE /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF3F22E00CF600907FBE /* pwd2key.c */; };
+		47E8EF6722E00CF600907FBE /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF4022E00CF600907FBE /* aestab.c */; };
+		47E8EF6822E00CF600907FBE /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF4322E00CF600907FBE /* entropy.c */; };
+		47E8EF6922E00CF600907FBE /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8EF4722E00CF600907FBE /* CSVParser.m */; };
+		47E8EF6D22E00ED000907FBE /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E8EF6C22E00ED000907FBE /* libiconv.2.4.0.tbd */; };
+		47E8EF6F22E00EDD00907FBE /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E8EF6E22E00EDD00907FBE /* libz.1.2.8.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +62,87 @@
 		47E8EEE222E00CD000907FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47E8EEE422E00CD000907FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47E8EEE522E00CD000907FBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47E8EEF022E00CF600907FBE /* main11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main11.cpp; sourceTree = "<group>"; };
+		47E8EEF122E00CF600907FBE /* XlsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XlsReader.h; sourceTree = "<group>"; };
+		47E8EEF222E00CF600907FBE /* XlsReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XlsReader.cpp; sourceTree = "<group>"; };
+		47E8EEF322E00CF600907FBE /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		47E8EEF522E00CF600907FBE /* xlstypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstypes.h; sourceTree = "<group>"; };
+		47E8EEF622E00CF600907FBE /* xlsstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlsstruct.h; sourceTree = "<group>"; };
+		47E8EEF722E00CF600907FBE /* brdb.c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.c.h; sourceTree = "<group>"; };
+		47E8EEF822E00CF600907FBE /* xlstool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstool.h; sourceTree = "<group>"; };
+		47E8EEF922E00CF600907FBE /* xls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xls.h; sourceTree = "<group>"; };
+		47E8EEFA22E00CF600907FBE /* ole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ole.h; sourceTree = "<group>"; };
+		47E8EEFB22E00CF600907FBE /* brdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.h; sourceTree = "<group>"; };
+		47E8EEFD22E00CF600907FBE /* DHxlsReaderIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHxlsReaderIOS.m; sourceTree = "<group>"; };
+		47E8EEFE22E00CF600907FBE /* DHxlsReaderIOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DHxlsReaderIOS-Prefix.pch"; sourceTree = "<group>"; };
+		47E8EEFF22E00CF600907FBE /* DHcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHcell.h; sourceTree = "<group>"; };
+		47E8EF0022E00CF600907FBE /* DHxlsReaderIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHxlsReaderIOS.h; sourceTree = "<group>"; };
+		47E8EF0122E00CF600907FBE /* DHcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHcell.m; sourceTree = "<group>"; };
+		47E8EF0222E00CF600907FBE /* DHcell-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DHcell-Private.h"; sourceTree = "<group>"; };
+		47E8EF0422E00CF600907FBE /* xls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xls.c; sourceTree = "<group>"; };
+		47E8EF0522E00CF600907FBE /* xlstool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xlstool.c; sourceTree = "<group>"; };
+		47E8EF0622E00CF600907FBE /* ole.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ole.c; sourceTree = "<group>"; };
+		47E8EF0722E00CF600907FBE /* xls2csv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xls2csv.c; sourceTree = "<group>"; };
+		47E8EF0822E00CF600907FBE /* getopt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		47E8EF0922E00CF600907FBE /* LAWExcelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAWExcelTool.m; sourceTree = "<group>"; };
+		47E8EF0B22E00CF600907FBE /* ZXLSXParsers注解.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZXLSXParsers注解.m"; sourceTree = "<group>"; };
+		47E8EF0D22E00CF600907FBE /* ZBaseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBaseParser.h; sourceTree = "<group>"; };
+		47E8EF0E22E00CF600907FBE /* ZWorkbookParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWorkbookParser.h; sourceTree = "<group>"; };
+		47E8EF0F22E00CF600907FBE /* ZSheetParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSheetParser.m; sourceTree = "<group>"; };
+		47E8EF1022E00CF600907FBE /* ZXLSXParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLSXParser.m; sourceTree = "<group>"; };
+		47E8EF1122E00CF600907FBE /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		47E8EF1322E00CF600907FBE /* ZSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSheet.m; sourceTree = "<group>"; };
+		47E8EF1422E00CF600907FBE /* ZContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZContent.h; sourceTree = "<group>"; };
+		47E8EF1522E00CF600907FBE /* ZSheetCol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSheetCol.h; sourceTree = "<group>"; };
+		47E8EF1622E00CF600907FBE /* ZSheetCol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSheetCol.m; sourceTree = "<group>"; };
+		47E8EF1722E00CF600907FBE /* ZPaserProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPaserProtocol.h; sourceTree = "<group>"; };
+		47E8EF1822E00CF600907FBE /* ZContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZContent.m; sourceTree = "<group>"; };
+		47E8EF1922E00CF600907FBE /* ZSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSheet.h; sourceTree = "<group>"; };
+		47E8EF1A22E00CF600907FBE /* ZContentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZContentParser.h; sourceTree = "<group>"; };
+		47E8EF1B22E00CF600907FBE /* ZWorkbookParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWorkbookParser.m; sourceTree = "<group>"; };
+		47E8EF1C22E00CF600907FBE /* ZBaseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBaseParser.m; sourceTree = "<group>"; };
+		47E8EF1D22E00CF600907FBE /* ZSheetParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSheetParser.h; sourceTree = "<group>"; };
+		47E8EF1E22E00CF600907FBE /* ZXLSXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLSXParser.h; sourceTree = "<group>"; };
+		47E8EF1F22E00CF600907FBE /* ZContentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZContentParser.m; sourceTree = "<group>"; };
+		47E8EF2222E00CF600907FBE /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		47E8EF2322E00CF600907FBE /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		47E8EF2422E00CF600907FBE /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		47E8EF2522E00CF600907FBE /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		47E8EF2622E00CF600907FBE /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		47E8EF2722E00CF600907FBE /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		47E8EF2822E00CF600907FBE /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		47E8EF2922E00CF600907FBE /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		47E8EF2A22E00CF600907FBE /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		47E8EF2B22E00CF600907FBE /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		47E8EF2C22E00CF600907FBE /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		47E8EF2D22E00CF600907FBE /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		47E8EF2F22E00CF600907FBE /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		47E8EF3022E00CF600907FBE /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		47E8EF3122E00CF600907FBE /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		47E8EF3222E00CF600907FBE /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		47E8EF3322E00CF600907FBE /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		47E8EF3422E00CF600907FBE /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		47E8EF3522E00CF600907FBE /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		47E8EF3622E00CF600907FBE /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		47E8EF3722E00CF600907FBE /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		47E8EF3822E00CF600907FBE /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		47E8EF3922E00CF600907FBE /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		47E8EF3A22E00CF600907FBE /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		47E8EF3B22E00CF600907FBE /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		47E8EF3C22E00CF600907FBE /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		47E8EF3D22E00CF600907FBE /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		47E8EF3E22E00CF600907FBE /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		47E8EF3F22E00CF600907FBE /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		47E8EF4022E00CF600907FBE /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		47E8EF4122E00CF600907FBE /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		47E8EF4222E00CF600907FBE /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		47E8EF4322E00CF600907FBE /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		47E8EF4422E00CF600907FBE /* LAWExcelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAWExcelTool.h; sourceTree = "<group>"; };
+		47E8EF4622E00CF600907FBE /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
+		47E8EF4722E00CF600907FBE /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
+		47E8EF6A22E00DA500907FBE /* ExcelParse.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelParse.pch; sourceTree = "<group>"; };
+		47E8EF6C22E00ED000907FBE /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		47E8EF6E22E00EDD00907FBE /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +150,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E8EF6F22E00EDD00907FBE /* libz.1.2.8.tbd in Frameworks */,
+				47E8EF6D22E00ED000907FBE /* libiconv.2.4.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +163,7 @@
 			children = (
 				47E8EED522E00CCF00907FBE /* ExcelParse */,
 				47E8EED422E00CCF00907FBE /* Products */,
+				47E8EF6B22E00ECF00907FBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +178,7 @@
 		47E8EED522E00CCF00907FBE /* ExcelParse */ = {
 			isa = PBXGroup;
 			children = (
+				47E8EEEC22E00CF600907FBE /* ExcelParser */,
 				47E8EED622E00CCF00907FBE /* AppDelegate.h */,
 				47E8EED722E00CCF00907FBE /* AppDelegate.m */,
 				47E8EED922E00CCF00907FBE /* ViewController.h */,
@@ -67,8 +188,207 @@
 				47E8EEE122E00CD000907FBE /* LaunchScreen.storyboard */,
 				47E8EEE422E00CD000907FBE /* Info.plist */,
 				47E8EEE522E00CD000907FBE /* main.m */,
+				47E8EF6A22E00DA500907FBE /* ExcelParse.pch */,
 			);
 			path = ExcelParse;
+			sourceTree = "<group>";
+		};
+		47E8EEEC22E00CF600907FBE /* ExcelParser */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EF4522E00CF600907FBE /* CSV */,
+				47E8EEED22E00CF600907FBE /* XLS */,
+				47E8EF0A22E00CF600907FBE /* XLSX */,
+				47E8EF0922E00CF600907FBE /* LAWExcelTool.m */,
+				47E8EF4422E00CF600907FBE /* LAWExcelTool.h */,
+			);
+			path = ExcelParser;
+			sourceTree = "<group>";
+		};
+		47E8EEED22E00CF600907FBE /* XLS */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EEEE22E00CF600907FBE /* DHxlsReader */,
+			);
+			path = XLS;
+			sourceTree = "<group>";
+		};
+		47E8EEEE22E00CF600907FBE /* DHxlsReader */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EEEF22E00CF600907FBE /* cplusplus */,
+				47E8EEF322E00CF600907FBE /* config.h */,
+				47E8EEF422E00CF600907FBE /* libxls */,
+				47E8EEFC22E00CF600907FBE /* DHxlsReaderIOS */,
+				47E8EF0322E00CF600907FBE /* src */,
+			);
+			path = DHxlsReader;
+			sourceTree = "<group>";
+		};
+		47E8EEEF22E00CF600907FBE /* cplusplus */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EEF022E00CF600907FBE /* main11.cpp */,
+				47E8EEF122E00CF600907FBE /* XlsReader.h */,
+				47E8EEF222E00CF600907FBE /* XlsReader.cpp */,
+			);
+			path = cplusplus;
+			sourceTree = "<group>";
+		};
+		47E8EEF422E00CF600907FBE /* libxls */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EEF522E00CF600907FBE /* xlstypes.h */,
+				47E8EEF622E00CF600907FBE /* xlsstruct.h */,
+				47E8EEF722E00CF600907FBE /* brdb.c.h */,
+				47E8EEF822E00CF600907FBE /* xlstool.h */,
+				47E8EEF922E00CF600907FBE /* xls.h */,
+				47E8EEFA22E00CF600907FBE /* ole.h */,
+				47E8EEFB22E00CF600907FBE /* brdb.h */,
+			);
+			path = libxls;
+			sourceTree = "<group>";
+		};
+		47E8EEFC22E00CF600907FBE /* DHxlsReaderIOS */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EEFD22E00CF600907FBE /* DHxlsReaderIOS.m */,
+				47E8EEFE22E00CF600907FBE /* DHxlsReaderIOS-Prefix.pch */,
+				47E8EEFF22E00CF600907FBE /* DHcell.h */,
+				47E8EF0022E00CF600907FBE /* DHxlsReaderIOS.h */,
+				47E8EF0122E00CF600907FBE /* DHcell.m */,
+				47E8EF0222E00CF600907FBE /* DHcell-Private.h */,
+			);
+			path = DHxlsReaderIOS;
+			sourceTree = "<group>";
+		};
+		47E8EF0322E00CF600907FBE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EF0422E00CF600907FBE /* xls.c */,
+				47E8EF0522E00CF600907FBE /* xlstool.c */,
+				47E8EF0622E00CF600907FBE /* ole.c */,
+				47E8EF0722E00CF600907FBE /* xls2csv.c */,
+				47E8EF0822E00CF600907FBE /* getopt.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		47E8EF0A22E00CF600907FBE /* XLSX */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EF0B22E00CF600907FBE /* ZXLSXParsers注解.m */,
+				47E8EF0C22E00CF600907FBE /* xmlParser */,
+				47E8EF2022E00CF600907FBE /* SSZipArchive */,
+			);
+			path = XLSX;
+			sourceTree = "<group>";
+		};
+		47E8EF0C22E00CF600907FBE /* xmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EF0D22E00CF600907FBE /* ZBaseParser.h */,
+				47E8EF0E22E00CF600907FBE /* ZWorkbookParser.h */,
+				47E8EF0F22E00CF600907FBE /* ZSheetParser.m */,
+				47E8EF1022E00CF600907FBE /* ZXLSXParser.m */,
+				47E8EF1122E00CF600907FBE /* config.h */,
+				47E8EF1222E00CF600907FBE /* models */,
+				47E8EF1A22E00CF600907FBE /* ZContentParser.h */,
+				47E8EF1B22E00CF600907FBE /* ZWorkbookParser.m */,
+				47E8EF1C22E00CF600907FBE /* ZBaseParser.m */,
+				47E8EF1D22E00CF600907FBE /* ZSheetParser.h */,
+				47E8EF1E22E00CF600907FBE /* ZXLSXParser.h */,
+				47E8EF1F22E00CF600907FBE /* ZContentParser.m */,
+			);
+			path = xmlParser;
+			sourceTree = "<group>";
+		};
+		47E8EF1222E00CF600907FBE /* models */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EF1322E00CF600907FBE /* ZSheet.m */,
+				47E8EF1422E00CF600907FBE /* ZContent.h */,
+				47E8EF1522E00CF600907FBE /* ZSheetCol.h */,
+				47E8EF1622E00CF600907FBE /* ZSheetCol.m */,
+				47E8EF1722E00CF600907FBE /* ZPaserProtocol.h */,
+				47E8EF1822E00CF600907FBE /* ZContent.m */,
+				47E8EF1922E00CF600907FBE /* ZSheet.h */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		47E8EF2022E00CF600907FBE /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EF2122E00CF600907FBE /* minizip */,
+				47E8EF2B22E00CF600907FBE /* SSZipArchive.h */,
+				47E8EF2C22E00CF600907FBE /* Common.h */,
+				47E8EF2D22E00CF600907FBE /* SSZipArchive.m */,
+				47E8EF2E22E00CF600907FBE /* aes */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		47E8EF2122E00CF600907FBE /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EF2222E00CF600907FBE /* unzip.c */,
+				47E8EF2322E00CF600907FBE /* zip.c */,
+				47E8EF2422E00CF600907FBE /* ioapi.c */,
+				47E8EF2522E00CF600907FBE /* mztools.c */,
+				47E8EF2622E00CF600907FBE /* crypt.h */,
+				47E8EF2722E00CF600907FBE /* zip.h */,
+				47E8EF2822E00CF600907FBE /* unzip.h */,
+				47E8EF2922E00CF600907FBE /* mztools.h */,
+				47E8EF2A22E00CF600907FBE /* ioapi.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		47E8EF2E22E00CF600907FBE /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EF2F22E00CF600907FBE /* prng.h */,
+				47E8EF3022E00CF600907FBE /* aeskey.c */,
+				47E8EF3122E00CF600907FBE /* hmac.c */,
+				47E8EF3222E00CF600907FBE /* aestab.h */,
+				47E8EF3322E00CF600907FBE /* pwd2key.h */,
+				47E8EF3422E00CF600907FBE /* aescrypt.c */,
+				47E8EF3522E00CF600907FBE /* fileenc.c */,
+				47E8EF3622E00CF600907FBE /* aesopt.h */,
+				47E8EF3722E00CF600907FBE /* aes_via_ace.h */,
+				47E8EF3822E00CF600907FBE /* sha1.c */,
+				47E8EF3922E00CF600907FBE /* brg_types.h */,
+				47E8EF3A22E00CF600907FBE /* entropy.h */,
+				47E8EF3B22E00CF600907FBE /* hmac.h */,
+				47E8EF3C22E00CF600907FBE /* brg_endian.h */,
+				47E8EF3D22E00CF600907FBE /* prng.c */,
+				47E8EF3E22E00CF600907FBE /* aes.h */,
+				47E8EF3F22E00CF600907FBE /* pwd2key.c */,
+				47E8EF4022E00CF600907FBE /* aestab.c */,
+				47E8EF4122E00CF600907FBE /* sha1.h */,
+				47E8EF4222E00CF600907FBE /* fileenc.h */,
+				47E8EF4322E00CF600907FBE /* entropy.c */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		47E8EF4522E00CF600907FBE /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EF4622E00CF600907FBE /* CSVParser.h */,
+				47E8EF4722E00CF600907FBE /* CSVParser.m */,
+			);
+			path = CSV;
+			sourceTree = "<group>";
+		};
+		47E8EF6B22E00ECF00907FBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47E8EF6E22E00EDD00907FBE /* libz.1.2.8.tbd */,
+				47E8EF6C22E00ED000907FBE /* libiconv.2.4.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +461,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E8EF5922E00CF600907FBE /* ZBaseParser.m in Sources */,
+				47E8EF4E22E00CF600907FBE /* ole.c in Sources */,
+				47E8EF4922E00CF600907FBE /* XlsReader.cpp in Sources */,
+				47E8EF5A22E00CF600907FBE /* ZContentParser.m in Sources */,
+				47E8EF6422E00CF600907FBE /* sha1.c in Sources */,
 				47E8EEDB22E00CCF00907FBE /* ViewController.m in Sources */,
+				47E8EF4D22E00CF600907FBE /* xlstool.c in Sources */,
+				47E8EF5022E00CF600907FBE /* getopt.c in Sources */,
+				47E8EF6122E00CF600907FBE /* hmac.c in Sources */,
+				47E8EF6022E00CF600907FBE /* aeskey.c in Sources */,
+				47E8EF5322E00CF600907FBE /* ZSheetParser.m in Sources */,
+				47E8EF5222E00CF600907FBE /* ZXLSXParsers注解.m in Sources */,
+				47E8EF5C22E00CF600907FBE /* zip.c in Sources */,
+				47E8EF4A22E00CF600907FBE /* DHxlsReaderIOS.m in Sources */,
+				47E8EF5F22E00CF600907FBE /* SSZipArchive.m in Sources */,
+				47E8EF4B22E00CF600907FBE /* DHcell.m in Sources */,
+				47E8EF6722E00CF600907FBE /* aestab.c in Sources */,
+				47E8EF5E22E00CF600907FBE /* mztools.c in Sources */,
 				47E8EEE622E00CD000907FBE /* main.m in Sources */,
+				47E8EF4C22E00CF600907FBE /* xls.c in Sources */,
+				47E8EF5722E00CF600907FBE /* ZContent.m in Sources */,
+				47E8EF6622E00CF600907FBE /* pwd2key.c in Sources */,
+				47E8EF5622E00CF600907FBE /* ZSheetCol.m in Sources */,
+				47E8EF6822E00CF600907FBE /* entropy.c in Sources */,
+				47E8EF6522E00CF600907FBE /* prng.c in Sources */,
+				47E8EF4822E00CF600907FBE /* main11.cpp in Sources */,
 				47E8EED822E00CCF00907FBE /* AppDelegate.m in Sources */,
+				47E8EF5522E00CF600907FBE /* ZSheet.m in Sources */,
+				47E8EF6922E00CF600907FBE /* CSVParser.m in Sources */,
+				47E8EF6322E00CF600907FBE /* fileenc.c in Sources */,
+				47E8EF4F22E00CF600907FBE /* xls2csv.c in Sources */,
+				47E8EF5822E00CF600907FBE /* ZWorkbookParser.m in Sources */,
+				47E8EF5422E00CF600907FBE /* ZXLSXParser.m in Sources */,
+				47E8EF5B22E00CF600907FBE /* unzip.c in Sources */,
+				47E8EF5122E00CF600907FBE /* LAWExcelTool.m in Sources */,
+				47E8EF6222E00CF600907FBE /* aescrypt.c in Sources */,
+				47E8EF5D22E00CF600907FBE /* ioapi.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +640,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLZ6FTC7C7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ExcelParse/ExcelParse.pch";
 				INFOPLIST_FILE = ExcelParse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ExcelParse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.test3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,12 +658,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLZ6FTC7C7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ExcelParse/ExcelParse.pch";
 				INFOPLIST_FILE = ExcelParse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ExcelParse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.test3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
