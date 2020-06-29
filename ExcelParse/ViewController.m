@@ -10,6 +10,8 @@
 
 #import "LAWExcelTool.h"
 #import "ZContent.h"
+#import "QuickExcelReaderUtil.h"
+#import "ZHeader.h"
 
 @interface ViewController ()<LAWExcelParserDelegate>
 
@@ -30,22 +32,89 @@
 
 - (IBAction)csvParse:(id)sender {
     NSString *path = [[NSBundle mainBundle] pathForResource:@"test.csv" ofType:nil];
-    [[LAWExcelTool shareInstance] parserExcelWithPath:path];
+    //[[LAWExcelTool shareInstance] parserExcelWithPath:path];
+    [QuickExcelReaderUtil readExcelWithPath:path complete:^(NSDictionary<NSString *,NSArray<ZContent *> *> *results, NSError *error) {
+        NSLog(@"csvParse:");
+        for (NSString *key in results) {
+            NSArray *contents = results[key];
+            for (ZContent *content in contents) {
+                if ([content isKindOfClass:ZContent.class]) {
+                    if (IsEmptyOrNull(content.value)) {
+                        continue;
+                    }
+                    NSLog(@"%@:%@",content.keyName, content.value);
+                }else {
+                    NSLog(@"content is not ZContent");
+                }
+            }
+        }
+    }];
+
 }
 
 - (IBAction)xlsParse:(id)sender {
     NSString *path = [[NSBundle mainBundle] pathForResource:@"test.xls" ofType:nil];
-    [[LAWExcelTool shareInstance] parserExcelWithPath:path];
+    //[[LAWExcelTool shareInstance] parserExcelWithPath:path];
+    [QuickExcelReaderUtil readExcelWithPath:path complete:^(NSDictionary<NSString *,NSArray<ZContent *> *> *results, NSError *error) {
+        NSLog(@"xlsParse:");
+        for (NSString *key in results) {
+            NSArray *contents = results[key];
+            for (ZContent *content in contents) {
+                if ([content isKindOfClass:ZContent.class]) {
+                    if (IsEmptyOrNull(content.value)) {
+                        continue;
+                    }
+                    NSLog(@"%@:%@",content.keyName, content.value);
+                }else {
+                    NSLog(@"content is not ZContent");
+                }
+            }
+        }
+    }];
 }
 
 - (IBAction)xlsxParse:(id)sender {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"test3.xlsx" ofType:nil];
-    [[LAWExcelTool shareInstance] parserExcelWithPath:path];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"test.xlsx" ofType:nil];
+    //[[LAWExcelTool shareInstance] parserExcelWithPath:path];
+    [QuickExcelReaderUtil readExcelWithPath:path complete:^(NSDictionary<NSString *,NSArray<ZContent *> *> *results, NSError *error) {
+        NSLog(@"xlsxParse:");
+        for (NSString *key in results) {
+            NSArray *contents = results[key];
+            for (ZContent *content in contents) {
+                if ([content isKindOfClass:ZContent.class]) {
+                    if (IsEmptyOrNull(content.value)) {
+                        continue;
+                    }
+                    NSLog(@"%@:%@",content.keyName, content.value);
+                }else {
+                    NSLog(@"content is not ZContent");
+                }
+            }
+        }
+    }];
 }
 
 - (IBAction)xlsxParsemy:(id)sender {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"2019年国际化.xlsx" ofType:nil];
-    [[LAWExcelTool shareInstance] parserExcelWithPath:path];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"test.xlsx" ofType:nil];
+    //[[LAWExcelTool shareInstance] parserExcelWithPath:path];
+    [QuickExcelReaderUtil readExcelWithPath:path complete:^(NSDictionary<NSString *,NSArray<ZContent *> *> *results, NSError *error) {
+        NSLog(@"xlsxParse:");
+        for (NSString *key in results) {
+            NSArray *contents = results[key];
+            for (ZContent *content in contents) {
+                if ([content isKindOfClass:ZContent.class]) {
+                    if (IsEmptyOrNull(content.value)) {
+                        continue;
+                    }
+                    NSLog(@"%@:%@",content.keyName, content.value);
+                }else {
+                    NSLog(@"content is not ZContent");
+                }
+            }
+        }
+    }];
+
+
 }
 
 #pragma mark LAWExcelParserDelegate
